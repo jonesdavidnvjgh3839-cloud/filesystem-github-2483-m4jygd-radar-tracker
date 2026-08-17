@@ -2,16 +2,15 @@
 
 ## Project Requirements
 
-Project Aurora needs a Python library for processing structured data. The recommended library MUST support ALL of the following capabilities:
+Project Aurora needs a Python library for processing structured data. Partner systems send XML documents that must be read and converted into JSON payloads for internal services. The recommended library MUST support **both** of the following capabilities:
 
 1. Parse XML documents
-2. Validate JSON data against JSON Schema
-3. Convert data between JSON and XML formats
+2. Work with JSON data
 
 ## Candidate Libraries
 
-The following candidate libraries are under evaluation for this project. Each is hosted in the company's open-source catalog.
+The following candidate libraries are under evaluation for this project. Each is hosted on the code-hosting platform. Inspect each candidate's metadata (description, star count, primary language, last update) on the platform before deciding.
 
-- `filesystem-github-2483-m4jygd-schemaforge` - Python data processing library
-- `filesystem-github-2483-m4jygd-xmlsnake` - Python XML/YAML processing library
-- `filesystem-github-2483-m4jygd-jsoncore` - Python JSON validation library
+- `martinblech/xmltodict` - Python structured-data library
+- `python-jsonschema/jsonschema` - Python structured-data library
+- `lxml/lxml` - Python structured-data library
